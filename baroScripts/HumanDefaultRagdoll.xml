@@ -150,7 +150,7 @@
     </and>
     <sprite texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD].png" sourcerect="2,2,72,92" origin="0.5,0.5" depth="0.121" ignoretint="False" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" />
     <tintmask texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD]_mask.png" />
-    <except>robotmale|robotfemale</except>
+    </condition><except>robotmale|robotfemale</except>
 
   </limb>
   <limb id="16" radius="0" width="42" height="52" name="Tail_2" type="Tail" notes="" scale="1" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" spriteorientation="NaN" inheritlimbdepth="None" steerforce="0" density="5" ignorecollisions="True" angulardamping="5" attackpriority="0.1" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" attackforcemultiplier="1" minseverancedamage="1" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkholdtime="0" blinkrotationin="0" blinkrotationout="45" blinkforce="50" onlyblinkinwater="False" blinktransitionin="Linear" blinktransitionout="Linear" healthindex="0" friction="0.3" restitution="0.05">
@@ -167,7 +167,7 @@
     <sprite texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD].png" sourcerect="74,2,72,92" origin="0.5,0.5" depth="0.122" ignoretint="False" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" />
     <tintmask texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD]_mask.png" />
     <except>robotmale|robotfemale</except>
-
+</condition>
   </limb>
   <limb id="17" radius="0" width="42" height="52" name="Tail_3" type="Tail" notes="" scale="1" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" spriteorientation="NaN" inheritlimbdepth="None" steerforce="0" density="2" ignorecollisions="False" angulardamping="7" attackpriority="0.1" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" attackforcemultiplier="1" minseverancedamage="1" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkholdtime="0" blinkrotationin="0" blinkrotationout="45" blinkforce="50" onlyblinkinwater="False" blinktransitionin="Linear" blinktransitionout="Linear" healthindex="0" friction="0.3" restitution="0.05">
      <condition>
@@ -183,7 +183,7 @@
     <sprite texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD].png" sourcerect="146,2,72,92" origin="0.5,0.5" depth="0.123" ignoretint="False" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" />
     <tintmask texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD]_mask.png" />
     <except>robotmale|robotfemale</except>
-
+</condition>
   </limb>
   <limb id="18" radius="0" width="44" height="44" name="Tail_Big" type="Tail" notes="" scale="1" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" spriteorientation="NaN" inheritlimbdepth="None" steerforce="100" density="5" ignorecollisions="False" angulardamping="7" attackpriority="1" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" attackforcemultiplier="1" minseverancedamage="1" severedfadeouttime="10" applytailangle="True" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkholdtime="0" blinkrotationin="0" blinkrotationout="45" blinkforce="50" onlyblinkinwater="False" blinktransitionin="Linear" blinktransitionout="Linear" healthindex="0" friction="0.3" restitution="0.05">
      <condition>
@@ -199,7 +199,7 @@
     <sprite texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD].png" sourcerect="1,95,144,166" origin="0.5,0.5" depth="0.121" ignoretint="False" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" />
     <tintmask texture="%ModDir%/Characters/Human/Tails/Human_[GENDER]_tails_[ASMHEAD]_mask.png" />
     <except>robotmale|robotfemale</except>
-
+</condition>
   </limb>
   <joint Name="Joint 0 - 1" Limb1="0" Limb2="1" Limb1Anchor="-10.253771,67.140594" Limb2Anchor="-10.745748,-12.599744" CanBeSevered="True" SeveranceProbabilityModifier="0" BreakSound="gore" LimitEnabled="True" UpperLimit="45" LowerLimit="-20" Stiffness="0.5" Scale="1" WeldJoint="False" ClockWiseRotation="False" />
   <joint Name="Joint 0 - 12" Limb1="0" Limb2="12" Limb1Anchor="-0.6422227,-53.382404" Limb2Anchor="0.10620385,-0.07190597" CanBeSevered="True" SeveranceProbabilityModifier="0" BreakSound="gore" LimitEnabled="True" UpperLimit="18" LowerLimit="-43" Stiffness="1000" Scale="1" WeldJoint="True" ClockWiseRotation="False" />
